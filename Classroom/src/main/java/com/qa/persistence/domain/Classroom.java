@@ -30,7 +30,7 @@ public class Classroom {
 
 	private String trainer;
 	@OneToMany
-	@JoinColumn(name = "traineeID", nullable = false, insertable = false, updatable = false)
+	@JoinColumn(name = "classroomID", nullable = false, insertable = false, updatable = false)
 	@OnDelete(action = OnDeleteAction.CASCADE)
 	private Set<Trainee> trainees;
 
