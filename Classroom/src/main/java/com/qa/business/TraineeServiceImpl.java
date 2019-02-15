@@ -40,4 +40,10 @@ public class TraineeServiceImpl implements TraineeService {
 		return "Trainee " + id + " deleted.";
 	}
 
+	@Override
+	public String updateTrainee(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

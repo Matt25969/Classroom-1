@@ -13,5 +13,7 @@ public interface TraineeService {
 
 	public List<Trainee> getAllTrainees();
 
-	public String removeTrainee(Integer id);
+	public String removeTrainee(Integer id); 
+	
+	public String updateTrainee(Integer id);
 }
