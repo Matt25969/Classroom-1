@@ -43,6 +43,12 @@ public class ClassroomServiceImpl implements ClassroomService {
 	public String removeClassroom(Integer id) {
 		classRepo.deleteById(id);
 		return "Classroom " + id + " deleted.";
+	} 
+	
+	@Override 
+	public String updateClassroom(Integer id) { 
+		classRepo.findById(id); 
+		return null;
 	}
 
 }

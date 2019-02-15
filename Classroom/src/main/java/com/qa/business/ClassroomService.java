@@ -13,6 +13,8 @@ public interface ClassroomService {
 
 	public List<Classroom> getAllClassrooms();
 
-	public String removeClassroom(Integer id);
+	public String removeClassroom(Integer id); 
+	
+	public String updateClassroom(Integer id);
 
 }
